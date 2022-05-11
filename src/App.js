@@ -16,7 +16,7 @@ function App() {
         <h1>Hello, I'm Enrico</h1>
         <h2>Software Developer</h2>
         
-        <img src={linkedin} className="Linkedin-link" href="https://www.linkedin.com/in/enrico-ng/" target="_blank"></img>
+        <FontAwesomeIcon icon="fa-brands fa-linkedin" href="https://www.linkedin.com/in/enrico-ng/" target="_blank" />
         
         
       </header>

@@ -9,8 +9,15 @@ function App() {
         <h1>Hello, I'm Enrico</h1>
         <h2>Software Developer</h2>
         
+        <a
+          className="Linkedin-link"
+          href="https://www.linkedin.com/in/enrico-ng/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          My Linkedin Profile
+        </a>
         
-
       </header>
     </div>
   );

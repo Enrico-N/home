@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import React, {useState} from 'react';
+import react from 'react';
 
 
 

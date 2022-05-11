@@ -16,9 +16,14 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello, I'm Enrico</h1>
         <h2>Software Developer</h2>
+
         <div id='Social-icons'>
-        <FontAwesomeIcon icon={faLinkedin} href="https://www.linkedin.com/in/enrico-ng/" target="_blank"/>
-        <FontAwesomeIcon icon={faGithub} href="https://github.com/Enrico-N" target="_blank"/>
+        <a href="https://www.linkedin.com/in/enrico-ng/" target="_blank">
+        <FontAwesomeIcon icon={faLinkedin}/>
+        </a>
+        <a href="https://github.com/Enrico-N" target="_blank">
+        <FontAwesomeIcon icon={faGithub}/>
+        </a>
         </div>
         
       </header>

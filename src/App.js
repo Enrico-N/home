@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import linkedin from './linkedin-brands.svg';
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './FontAwesomeIcons';
 import React, {useState} from 'react';
 
 
@@ -16,7 +16,7 @@ function App() {
         <h1>Hello, I'm Enrico</h1>
         <h2>Software Developer</h2>
         
-        <FontAwesomeIcon icon="fa-brands fa-linkedin" href="https://www.linkedin.com/in/enrico-ng/" target="_blank" />
+        <FontAwesomeIcon icon="faLinkedin" href="https://www.linkedin.com/in/enrico-ng/" target="_blank" />
         
         
       </header>

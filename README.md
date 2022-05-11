@@ -1,3 +1,8 @@
 # Enrico's Webpage
 
-This is my website code
+Hello, I'm Enrico
+
+
+## How It's Made: 
+
+Tech used: HTML, CSS, Javascript, React

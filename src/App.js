@@ -19,10 +19,10 @@ function App() {
 
         <div id='Social-icons'>
         <a href="https://www.linkedin.com/in/enrico-ng/" target="_blank">
-        <FontAwesomeIcon icon={faLinkedin}/>
+        <FontAwesomeIcon icon={faLinkedin} size="2x"/>
         </a>
         <a href="https://github.com/Enrico-N" target="_blank">
-        <FontAwesomeIcon icon={faGithub}/>
+        <FontAwesomeIcon icon={faGithub} size= "2x"/>
         </a>
         </div>
         

@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, {useState} from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core'
+
 
 
 
@@ -15,7 +15,7 @@ function App() {
         <h1>Hello, I'm Enrico</h1>
         <h2>Software Developer</h2>
         
-        <i class="fa-brands fa-linkedin" className="Linkedin-link" href="https://www.linkedin.com/in/enrico-ng/" target="_blank">
+        <FontAwesomeIcon icon="fa-brands fa-linkedin" className="Linkedin-link" href="https://www.linkedin.com/in/enrico-ng/" target="_blank">
         </i>
         
       </header>

@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import {fon} 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faCoffee} from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   return (
@@ -9,14 +12,14 @@ function App() {
         <h1>Hello, I'm Enrico</h1>
         <h2>Software Developer</h2>
         
-        <i class="fa-brands fa-linkedin">
+        <i class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/enrico-ng/">
         <a
           className="Linkedin-link"
-          href="https://www.linkedin.com/in/enrico-ng/"
+          href= ""
           target="_blank"
           rel="noopener noreferrer"
         >
-          
+
         </a>
         </i>
         

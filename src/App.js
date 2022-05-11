@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import {fon} 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faCoffee} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faCoffee} from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (

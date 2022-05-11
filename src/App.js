@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import React, {useState} from 'react';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -16,9 +16,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello, I'm Enrico</h1>
         <h2>Software Developer</h2>
-        
-        <FontAwesomeIcon icon={faLinkedin} className="Linkedin-link" href="https://www.linkedin.com/in/enrico-ng/" target="_blank" />
-        
+        <div id='Social-icons'>
+        <FontAwesomeIcon icon={faLinkedin}/>
+        <FontAwesomeIcon icon={faGithub}/> //className="Linkedin-link" href="https://www.linkedin.com/in/enrico-ng/" target="_blank" 
+        </div>
         
       </header>
     </div>
